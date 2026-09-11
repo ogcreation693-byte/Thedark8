@@ -323,3 +323,28 @@ html { scroll-behavior:auto; }
 }
 @media (prefers-reduced-motion:reduce) { .nav::before { animation:none; } }
 
+@media (max-width:760px) {
+	.nav { align-items:center; gap:12px; min-height:72px; }
+	.brand { min-width:0; }
+	.brand img { height:54px; margin-right:-2px; width:54px; }
+	.brand-copy { font-size:16px; letter-spacing:-.5px; }
+	.mobile-menu { flex:none; margin-left:auto; }
+	.menu-button { border-radius:2px; min-width:72px; }
+	.mobile-links { left:auto; right:0; top:64px; width:min(220px,calc(100vw - 36px)); }
+	.hero { padding-top:54px; }
+	.hero h1 { font-size:44px; letter-spacing:-2.5px; line-height:1; }
+	.hero .lede { font-size:15px; margin:22px 0 28px; }
+	.hero-visual { border-radius:18px; margin-top:48px; min-height:360px; padding:16px; }
+	.hero-visual .core { height:108px; left:calc(50% - 54px); top:128px; width:108px; }
+	.hero-visual .core strong { font-size:17px; }
+	.hero-visual .orbit-one { height:220px; top:182px; width:220px; }
+	.hero-visual .node { font-size:8px; padding:8px 9px; }
+	.hero-visual .node-top { top:70px; }
+	.hero-visual .node-right { right:10px; top:160px; }
+	.hero-visual .node-bottom { bottom:78px; }
+	.hero-visual .node-left { left:10px; top:160px; }
+	.hero-visual .floating-card { display:none; }
+	.hero-visual .live-readout { bottom:42px; font-size:8px; right:16px; }
+	.hero-visual .visual-footer { bottom:16px; font-size:8px; }
+}
+
