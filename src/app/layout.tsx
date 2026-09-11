@@ -3,7 +3,7 @@ import { AnalyticsProvider } from "@/components/analytics-provider";
 import { CookieConsent } from "@/components/cookie-consent";
 import "./globals.css";
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://thedark8.tech";
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "https://www.thedark8.com";
 
 export const metadata: Metadata = {
   title: "TheDark8 Tech | Digital Growth x Technology x Automation",
